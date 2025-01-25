@@ -1,6 +1,6 @@
 # Solution to Problems from Problem Solving Journals
 
-This repository contains solutions to problems from various problem-solving journals, such as *Crux Mathematicorum* and *The Monthly*, along with proposed problems and related mathematical work.
+This repository contains solutions to problems from various problem-solving journals, such as *Crux Mathematicorum* and *School Science and Math Journal(SSMJ)*, along with proposed problems and related mathematical work.
 
 ## About
 
@@ -12,7 +12,7 @@ The solutions are mostly written in LaTeX for clarity and presentation, ensuring
 
 The repository includes the following types of documents:
 
-- **Problem Solutions**: Detailed step-by-step solutions to problems from *Crux Mathematicorum*, *The Monthly*, and other journals.
+- **Problem Solutions**: Detailed step-by-step solutions to problems from *Crux Mathematicorum*, *School Science and Math Journal(SSMJ)*, and other journals.
 - **Proposed Problems**: Problems I have proposed for publication in various mathematical journals.
 - **Mathematical Papers**: Additional work or papers that expand on problem-solving strategies.
 
