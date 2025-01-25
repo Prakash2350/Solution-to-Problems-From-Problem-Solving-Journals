@@ -1,2 +1,2 @@
-# Solution-to-Problems-on-SSMJ
-I will upload my solutions to problems on SSMJ here
+# Solution-to-Problems-From-Problem-Solving-Journals
+I will upload my solutions to problems from Problem Solving Journals
