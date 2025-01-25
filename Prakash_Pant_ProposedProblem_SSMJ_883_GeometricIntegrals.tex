@@ -1,0 +1,25 @@
+\documentclass[12pt]{article}
+
+\begin{document}
+\textit{Problem Proposed to SSMJ }\\ \\
+\textit{Problem proposed by Prakash Pant, Mathematics Initiatives in Nepal, Bardiya, Nepal}\\ \\
+\textbf{ Geometrical Integrals} \\ \\
+\textbf{Statement of the Problem:}
+Show that:
+\[ \int_0^1 \int_0^1 \{ y^2-x\} dx dy = \frac{1}{2}\]
+\textbf{ Solution of the problem: } \\ 
+From the geometrical interpretation of double integral, we can see that: \\
+\[ \int_0^1 \int_0^1 \{y^2-x\} dx dy = \int_0^1 \int_0^{y^2} \{y^2-x\} dx dy + \int_0^1 \int_0^{\sqrt{x}} \{y^2-x\} dy dx \]
+Notice that in the first region, $0 < \{y^2-x\}<1$ and in the second region, $0>\{ y^2-x \} >-1$ . which is why we can write \\
+\[  = \int_0^1 \int_0^{y^2}(y^2-x) dx dy + \int_0^1 \int_0^{\sqrt{x}} (y^2-x+1) dy dx \] 
+\[  = \int_0^1  \frac{y^4}{2} dy + \int_0^1  x^{\frac{1}{2}}- \frac{2x^{\frac{3}{2}}}{3}  dx \] 
+\[ = \frac{1}{10} + \frac{2}{3} - \frac{2}{3} \times \frac{2}{5} \]
+\[ = \frac{1}{2} \]
+ 
+
+
+
+					
+
+
+\end{document}

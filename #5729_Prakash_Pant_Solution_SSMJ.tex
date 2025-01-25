@@ -1,0 +1,26 @@
+\documentclass[12pt]{article}
+
+\begin{document}
+
+\textit{Proposed Solution to \#5729 SSMJ }\\ \\
+\textit{Solution proposed by Prakash Pant, Mathematics Initiatives in Nepal, Bardiya, Nepal.}\\ \\
+\textit{Problem proposed by Goran Conar, Varazdin, Croatia.} \\ \\
+\textbf{Statement of the Problem:}
+ Let $0<a<b$ be real numbers. Prove the following inequality:\\
+\[ (a+b)^{(a+b)} (b-a)^{(b-a)} < (\frac{a^2 + b^2}{b})^{2b}  \]
+
+
+\textbf{Solution of the Problem:} 		d			
+We modify the problem taking ln on both sides, \\
+\[ 	(a+b)\ln(a+b)+(b-a)\ln(b-a) < 2b \ln(\frac{a^2+b^2}{b})	 \hspace{1cm} ...........(1)				\]
+Now, we will focus on proving this statement. \\ \\ 
+Then, consider a function $ f(x) =  \ln(x)$. Then f''(x) = $-\frac{1}{x^2}<0$ $\forall x>0 $. So, the function is concave $\forall x \neq 0$. Also notice that both a+b and b-a are strictly positive here.  \\
+Now, using Jensen's inequality,\\
+\[  \frac{(a+b) \ln(a+b)+(b-a)\ln(b-a)}{a+b+b-a} \le \ln(\frac{(a+b)(a+b)+(b-a)(b-a)}{a+b+b-a})		\]		
+which on simplification gives 
+\[(a+b)\ln(a+b)+(b-a)\ln(b-a) \le 2b \ln(\frac{a^2+b^2}{b})						\]	
+And the equality holds when $ a+b = b-a$ $\Rightarrow$ a=0. But since $0<a<b$, the equality does not hold. Hence, we have proved (1).
+					
+
+
+\end{document}

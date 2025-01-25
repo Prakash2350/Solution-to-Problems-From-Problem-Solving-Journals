@@ -1,0 +1,22 @@
+\documentclass[12pt]{article}
+\begin{document}
+
+\[ \textbf{Crux (Numbered) Problem}\] \\
+\[\textbf{ Volume 49, Issue 7 , September 2023} \] \\
+\textit{Problem by Ivan Hadinata} \\
+\textit{Solution by Kritesh Dhakal, Nepali Problem Solvers, Kathmandu, Nepal} \\ \\
+\textbf{4866.} Find all functions f:$\mathbb{R}\rightarrow\mathbb{R}$ such that the equation
+\[ f(xy+f(f(y)))=xf(y)+y \] holds for all real numbers x and y. \\
+										\]
+\textit{Solution:}
+Let P(x,y) be the stated property.
+Let f(1)=A and f(f(1))=B. 
+P(x,1) : \[ f(x\times 1+f(f(1)))=xf(1)+1 \]
+\[ f(x+A))=Bx+1 \]
+which concludes that f(x) is linear. Thus, say f(x) = kx+c.  \\
+Substituting it back in the original functional equation, we obtain \\
+\[kxy+k^3y+k^2c+kc+c = kxy+xc+y \]
+Comparing the coefficient of x, y, xy and constant term, we get \\
+\[k=1,  c=0 \]
+Thus, the only solution is f(x)=x which clearly satisfies.
+\end{document}

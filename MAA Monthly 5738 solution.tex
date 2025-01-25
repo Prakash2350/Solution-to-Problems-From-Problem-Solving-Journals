@@ -1,0 +1,30 @@
+\documentclass[12pt]{article}
+
+\begin{document}
+
+$\bullet$ 
+\textbf{5738}
+\emph{Proposed by Goran Conar, Varazdin, Croatia.} \\ \\
+ Let $x_1,......x_n >0 $  be real numbers and $s = \sum_{i=1}^{n} x_i $. Prove \\
+\[ \prod_{i=1}^{n} x_i^{x_i} \ge  (\frac{s}{n+s})^s \prod_{i=1}^{n} {(1+x_i)}^{x_i}.	\]
+When does equality occur? \\ \\ \\ \\ 
+
+\textbf{Solution by Prakash Pant, Mathematics Initiatives in Nepal (MIN)} \\
+
+We first rearrange the problem as follows:\\
+\[ \prod_{i=1}^{n} (\frac{x_i}{1+x_i})^{x_i}\ge  (\frac{s}{n+s})^s  					\]
+We further modify the problem taking log on both sides, \\
+\[ \sum_{i=1}^{n} x_i \ln(\frac{x_i}{1+x_i})	\ge s \ln(\frac{s}{n+s}) \hspace{1cm} ...........(1)				\]
+Now, we will focus on proving this statement. \\ \\ 
+Then, consider a function $ f(x) = x \ln (\frac{x}{1+x})$. Then f''(x) = $\frac{1}{x(1+x)^2}>0 \forall x \ge 0 $. So, the function is convex in our required interval. \\
+Now, using Jensen's inequality,\\
+\[	\frac{\sum_{i=1}^{n} x_i \ln(\frac{x_i}{1+x_i})}{n}	\ge \frac{\sum_{i=1}^{n} x_i}{n} 
+\ln(\frac{ \frac{\sum_{i=1}^{n} x_i}{n}}{1 + \frac{\sum_{i=1}^{n} x_i}{n}} )						\]		
+which on simplification gives
+\[	\sum_{i=1}^{n} x_i \ln(\frac{x_i}{1+x_i})\ge s
+\ln(\frac{s}{n+s} )						\]	
+which is what was to be proved from (1). And the equality holds when $ x_1 = x_2 = ....=x_n .$
+					
+
+
+\end{document}

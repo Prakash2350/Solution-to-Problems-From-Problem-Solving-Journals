@@ -1,0 +1,29 @@
+\documentclass[12pt]{article}
+
+\begin{document}
+
+\textit{Problem Proposed to SSMJ }\\ \\
+\textit{Problem proposed by Prakash Pant, Mathematics Initiatives in Nepal, Bardiya, Nepal}\\ \\
+\textbf{ Exponential Inequality} \\
+\textbf{Statement of the Problem:}
+Let a and b be real numbers such that $0<a$ $\le$ b. Then prove that:
+\[ \int_a^b e^{x^{2023}} dx >  \left( b^{\frac{2025}{2}}a^{\frac{2023}{2}}-a^{\frac{2025}{2}} b^{\frac{2023}{2}} \right) \]
+
+\textbf{ Solution of the problem: } \\ 
+From the series expansion, $e^x = 1 + x+ \frac{x^2}{2!}+ \frac{x^3}{3!}+.....,$ we can say that for positive x, $ e^x \ge 1+x $  which implies $e^{x^{2023}} \ge 1+x^{2023} $ ,Thus,
+\[ \int_a^b e^{x^{2023}} dx \ge \int_a^b 1+x^{2023} dx = (b-a)+ \frac{b^{2024}-a^{2024}}{2024} \]
+\[  = (b-a)\left( 1+ \frac{\sum_{n=0}^{2023} b^{2023-n}a^n}{2024} \right) \]
+Using AM-GM inequality, we have
+\[  \frac{\sum_{n=0}^{2023} b^{2023-n}a^n}{2024} \ge \sqrt[2024]{b^{2023+2022+....+1}a^{1+2+....+2023}}=\sqrt[2024]{b^{\frac{2023\times 2024}{2}}a^{\frac{2023 \times 2024}{2}}} = b^{\frac{2023}{2}}a^{\frac{2023 }{2}} \]
+ Thus, 
+\[  1+\frac{\sum_{n=0}^{2023} b^{2023-n}a^n}{2024} > b^{\frac{2023}{2}}a^{\frac{2023 }{2}} \] 
+And (b-a)$>$0,hence,
+\[ \int_a^b e^{x^{2023} }dx \ge (b-a)\left( 1+ \frac{\sum_{n=0}^{2023} b^{2023-n}a^n}{2024} \right) >(b-a)  b^{\frac{2023}{2}}a^{\frac{2023 }{2}} = b^{\frac{2025}{2}}a^{\frac{2023 }{2}}-b^{\frac{2023}{2}}a^{\frac{2025 }{2}}  \] 
+which ends the proof.
+
+
+
+					
+
+
+\end{document}

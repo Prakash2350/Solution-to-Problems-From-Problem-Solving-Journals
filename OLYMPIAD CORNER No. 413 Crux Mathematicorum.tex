@@ -1,0 +1,26 @@
+\documentclass[12pt]{article}
+\begin{document}
+
+\[\textbf{OLYMPIAD CORNER}\]
+\[No. 413\] \\
+\textit{Solution by Prakash Pant, Bardiya, Nepal} \\ \\
+\textbf{OC635.} Let n $\ge$ 3 be an integer. Prove that for all positive real numbers $x_1,......,x_n.$
+\[ \frac{1+ x_1^{2}}{x_2 + x_3} + \frac{1+ x_2^{2}}{x_3 + x_4} + ......+ \frac{1+ x_{n-1}^{2}}{x_n + x_1} + \frac{1+ x_n^{2}}{x_1 + x_2} \ge n																	\]
+\textit{Proof:}
+We first break the sum as follows:\\
+\[= \frac{1}{x_2 + x_3} + \frac{1}{x_3 + x_4} + ......+ \frac{1}{x_n + x_1} + \frac{1}{x_1 + x_2} + \frac{ x_1^{2}}{x_2 + x_3} + \frac{ x_2^{2}}{x_3 + x_4} + ......+ \frac{ x_{n-1}^{2}}{x_n + x_1} + \frac{ x_n^{2}}{x_1 + x_2} 								\]
+Now, using Titu's Lemma,
+\[ \ge \frac{(1+1+..+1)^2}{(x_2 + x_3) +..+(x_n+x_1)+(x_1+x_2)} + \frac{(x_1+x_2+..+x_n)^2}{(x_2 + x_3)+..+(x_n+x_1)+(x_1+x_2)}									\]
+\[ = \frac{n^2}{2\sum_{i=1}^{n} x_i} + \frac{(\sum_{i=1}^{n} x_i)^2}{2\sum_{i=1}^{n} x_i}	\]
+\[ = \frac{1}{2} ( \frac{n^2}{\sum_{i=1}^{n} x_i}  +\sum_{i=1}^{n} x_i )						\]
+Then, using AM-GM Inequality,
+\[ \ge \frac{1}{2} \times 2\, \sqrt{\frac{n^2}{\sum_{i=1}^{n} x_i} \times \sum_{i=1}^{n} x_i }	\,\, = n\]
+
+Thus, we have proved that \[ \frac{1+ x_1^{2}}{x_2 + x_3} + \frac{1+ x_2^{2}}{x_3 + x_4} + ......+ \frac{1+ x_{n-1}^{2}}{x_n + x_1} + \frac{1+ x_n^{2}}{x_1 + x_2} \ge n \]																						
+
+
+
+
+
+
+\end{document}

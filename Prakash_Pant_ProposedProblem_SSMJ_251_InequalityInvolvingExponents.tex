@@ -1,0 +1,29 @@
+\documentclass[12pt]{article}
+
+\begin{document}
+
+\textit{Problem proposed to SSMJ }\\ \\
+\textit{Problem proposed by Prakash Pant, Mathematics Initiatives in Nepal(MIN), Bardiya, Nepal} \\ \\
+\textbf{Inequality Involving Exponents} \\ \\
+\textbf{Statement of the Problem:} \\ \\
+Let x,y,z be positive real numbers such that x+y+z=3. Prove that:
+\[ \prod_{x,y,z} (x^{1/x}e^e)  \le  e^{ \sum_{x,y,z} e^x} \]
+At what values of x,y and z does equality occur? \\ \\
+
+\textbf{Solution of the Problem:} \\
+We modify the problem by taking ln on both sides:
+\[ \frac{\ln{x}}{x} + \frac{\ln{y}}{y} + \frac{\ln{z}}{z} + 3e \le e^x  + e^y + e^z \]	
+We then rearrange it as:
+\[ \sum_{x,y,z} ( \frac{\ln{x}}{x}-e^x ) \le -3e      \,\,\,\,\, .................(1) \]
+Now, check that for f(x) =$ \frac{\ln{x}}{x}-e^x $ , f''(x) is negative $ \forall $ x,y,z $>$ 0. We now use Jensen's Inequality. \\
+\[ \frac{\sum_{x,y,z}{\frac{\ln{x}}{x}-e^x} }{3} \le \frac{\ln{(\frac{x+y+z}{3}})}{\frac{x+y+z}{3}} - e^{\frac{x+y+z}{3}	}\]
+Using x+y+z=3,\\
+\[ \sum_{x,y,z} \frac{\ln{x}}{x}-e^x  \le -3e  \]
+which is what was to be proved from (1). And the equality holds when x=y=z=1.
+
+
+
+
+
+
+\end{document}
